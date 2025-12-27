@@ -80,7 +80,7 @@ export default function Faqs() {
                 Frequently Asked Questions
               </p>
             </div> */}
-            <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-2"> Frequently Asked Questions </h2>
+            <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-2 dark:text-gray-700"> Frequently Asked Questions </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-12 md:mb-12">
               Everything you need to know about booking driving lessons with Trueway Driving School
             </p>

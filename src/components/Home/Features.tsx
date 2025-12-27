@@ -33,7 +33,7 @@ export default function Features() {
 
 
     return (
-        <section className="relative w-full pt-10 md:pt-10 pb-15 md:pb-15 bg-gradient-to-b from-white via-yellow-50/30 to-white overflow-hidden">
+        <section className="relative w-full pt-10 md:pt-10 pb-15 md:pb-15  overflow-hidden dark:bg-white">
             {/* Decorative Background Elements */}
             {/* <div className="absolute top-20 left-10 w-72 h-72 bg-yellow-200/20 rounded-full blur-3xl"></div>
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-yellow-300/20 rounded-full blur-3xl"></div> */}
@@ -47,7 +47,7 @@ export default function Features() {
                             Our Features
                         </p>
                     </div>
-                    <h2 className="text-2xl md:text-4xl font-bold mb-12 md:mb-15">
+                    <h2 className="text-2xl md:text-4xl font-bold mb-12 md:mb-15 dark:text-gray-700">
                         Confidence Starts with Safe Driving
                     </h2>
 

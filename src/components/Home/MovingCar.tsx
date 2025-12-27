@@ -12,7 +12,7 @@ export default function MovingCarSection() {
     );
 
     return (
-        <section className="relative w-full h-[380px] md:h-[460px] overflow-hidden bg-white flex items-center">
+        <section className="relative w-full h-[380px] md:h-[460px] overflow-hidden bg-white flex items-center dark:bg-white">
             {/* Background */}
             <div
                 className="
@@ -30,7 +30,7 @@ export default function MovingCarSection() {
 
                     {/* Badge row */}
                     <div className="flex flex-wrap justify-center md:justify-start gap-3 mb-4">
-                        <div className="flex items-center gap-2 px-3 py-2 bg-white/80 rounded-full shadow">
+                        <div className="flex items-center gap-2 px-3 py-2 bg-white/80 rounded-full shadow dark:bg-amber-600">
                             <Users size={16} />
                             <span className="text-[11px] sm:text-xs font-semibold">
                                 500+ Learners Supported
@@ -39,28 +39,28 @@ export default function MovingCarSection() {
                     </div>
 
                     {/* Title */}
-                    <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold mb-4">
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold mb-4 dark:text-gray-700">
                         Complete Test Day Support
                     </h2>
 
                     {/* List */}
-                    <ul className="hidden sm:block space-y-3 sm:space-y-4 mb-6 sm:mb-8 text-left">
+                    <ul className="hidden sm:block space-y-2 sm:space-y-2 mb-6 sm:mb-8 text-left">
                         <li className="flex items-start gap-3 text-slate-900">
-                            <CheckCircle className="text-yellow-300 flex-shrink-0 mt-1" size={20} />
+                            <CheckCircle className="text-yellow-300 flex-shrink-0" size={20} />
                             <span className="text-sm sm:text-base leading-relaxed font-semibold">
                                 60-minute pre-test warm-up session
                             </span>
                         </li>
 
                         <li className="flex items-start gap-3 text-slate-900">
-                            <CheckCircle className="text-yellow-300 flex-shrink-0 mt-1" size={20} />
+                            <CheckCircle className="text-yellow-300 flex-shrink-0" size={20} />
                             <span className="text-sm sm:text-base leading-relaxed font-semibold">
                                 Use of instructor vehicle for the driving test
                             </span>
                         </li>
 
                         <li className="flex items-start gap-3 text-slate-900">
-                            <CheckCircle className="text-yellow-300 flex-shrink-0 mt-1" size={20} />
+                            <CheckCircle className="text-yellow-300 flex-shrink-0" size={20} />
                             <span className="text-sm sm:text-base leading-relaxed font-semibold">
                                 Pick-up before the test & drop-off afterwards
                             </span>
@@ -70,7 +70,7 @@ export default function MovingCarSection() {
                     {/* Button */}
                     <Link
                         href=""
-                        className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-300 rounded-full shadow-lg hover:bg-gray-900 hover:text-white transition"
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-300 dark:bg-amber-500 rounded-full shadow-lg hover:bg-gray-900 hover:text-white transition"
                     >
                         <span className="text-xs sm:text-sm font-bold uppercase">
                             Book Test Package Now

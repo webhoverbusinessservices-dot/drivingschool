@@ -11,7 +11,7 @@ export default function HowItWorks() {
                     </p>
                 </div>
 
-                <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-28">
+                <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-28 dark:text-gray-700">
                     Simple, Trusted & Flexible Booking System
                 </h2>
             </div>

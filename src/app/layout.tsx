@@ -41,7 +41,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
       </head>
-      <body className={`${roboto.variable} ${poppins.variable} ${rubik.variable} antialiased`}>
+      <body className={`${roboto.variable} ${poppins.variable} ${rubik.variable} antialiased `}>
         {children}
         
       </body>

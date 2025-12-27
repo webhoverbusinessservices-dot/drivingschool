@@ -21,7 +21,7 @@ export default function Blog() {
             </p>
           </div>
         </header>
-        <main className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 relative z-20 pb-20">
+        <section className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 relative z-20 pb-20">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12">
             <div className="lg:col-span-12">
               <div className="bg-card-light dark:bg-card-dark rounded-2xl shadow-xl overflow-hidden group flex flex-col md:flex-row h-full border border-gray-100 dark:border-gray-800">
@@ -47,10 +47,10 @@ export default function Blog() {
                     <span className="mx-2">•</span>
                     <span>5 min read</span>
                   </div>
-                  <h2 className="text-3xl font-display font-bold text-heading-light dark:text-heading-dark mb-4 leading-tight group-hover:text-primary transition-colors">
+                  <h2 className="text-3xl font-display font-bold text-heading-light dark:text-heading-dark mb-4 leading-tight group-hover:text-primary transition-colors dark:text-gray-600">
                     How to Teach Someone To Drive: A Comprehensive Guide
                   </h2>
-                  <p className="text-text-light dark:text-text-dark mb-6 line-clamp-3">
+                  <p className="text-text-light dark:text-text-dark mb-6 line-clamp-3 dark:text-gray-600">
                     Learning to drive can be stressful for learners and teachers alike. Following these simple steps will make the process smoother, allowing more focus on the road and skills at hand, leaving the journey enjoyable for everyone.
                   </p>
                   <Link
@@ -83,10 +83,10 @@ export default function Blog() {
                   <span className="mx-2">•</span>
                   <span>Oct 24, 2023</span>
                 </div>
-                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors dark:text-gray-600">
                   Most Googled Driving Questions in Australia
                 </h3>
-                <p className="text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow">
+                <p className=" text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow dark:text-gray-600">
                   No matter how long you&apos;ve had your licence, every driver has a moment of doubt. We analysed Google search activity to uncover the top driving-related queries confusing Aussies.
                 </p>
                 <Link
@@ -118,10 +118,10 @@ export default function Blog() {
                   <span className="mx-2">•</span>
                   <span>Oct 18, 2023</span>
                 </div>
-                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors dark:text-gray-600">
                   Australia&apos;s Most Common Theory Test Mistakes
                 </h3>
-                <p className="text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow">
+                <p className=" text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow dark:text-gray-600">
                   Sitting your Driving Knowledge test can be nerve-wracking. We&apos;ve broken down the data by state to show you exactly where learners are tripping up the most.
                 </p>
                 <Link
@@ -152,10 +152,10 @@ export default function Blog() {
                   <span className="mx-2">•</span>
                   <span>Sep 29, 2023</span>
                 </div>
-                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors dark:text-gray-600">
                   Choosing the Right First Car for Learners
                 </h3>
-                <p className="text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow">
+                <p className=" text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow dark:text-gray-600">
                   Safety, insurance, and reliability. Here is the ultimate checklist for parents and learners looking to purchase their first vehicle without breaking the bank.
                 </p>
                 <Link
@@ -186,10 +186,10 @@ export default function Blog() {
                   <span className="mx-2">•</span>
                   <span>Sep 12, 2023</span>
                 </div>
-                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors dark:text-gray-600">
                   Mastering Night Driving: Top Safety Tips
                 </h3>
-                <p className="text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow">
+                <p className=" text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow dark:text-gray-600">
                   Driving at night presents unique challenges. Learn how to handle glare, reduced visibility, and fatigue to ensure you arrive safely at your destination.
                 </p>
                 <Link
@@ -220,10 +220,10 @@ export default function Blog() {
                   <span className="mx-2">•</span>
                   <span>Aug 30, 2023</span>
                 </div>
-                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors dark:text-gray-600">
                   The 3-Step Method to Perfect Parallel Parking
                 </h3>
-                <p className="text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow">
+                <p className=" text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow dark:text-gray-600">
                   Stop fearing the parallel park. Our instructors break down the maneuver into three easy-to-remember steps that work every single time.
                 </p>
                 <Link
@@ -254,10 +254,10 @@ export default function Blog() {
                   <span className="mx-2">•</span>
                   <span>Aug 15, 2023</span>
                 </div>
-                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-display font-bold text-heading-light dark:text-heading-dark mb-3 leading-snug group-hover:text-primary transition-colors dark:text-gray-600">
                   Best Digital Logbook Apps for 2024
                 </h3>
-                <p className="text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow">
+                <p className=" text-text-light dark:text-text-dark text-sm mb-6 line-clamp-3 flex-grow dark:text-gray-600">
                   Ditch the paper logbook. We review the top approved digital apps that make recording your learner hours simple, automatic, and error-free.
                 </p>
                 <Link
@@ -286,7 +286,7 @@ export default function Blog() {
               <a className="px-4 py-2 bg-card-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 rounded-lg text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary hover:border-primary transition-all" href="#">Next</a>
             </nav>
           </div>
-        </main>
+        </section>
       </div>
       {/* ====== HEADER SECTION ====== */}
       <Footer />

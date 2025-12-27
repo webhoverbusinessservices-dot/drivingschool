@@ -74,7 +74,7 @@ export default function WhyChooseUs(): React.ReactElement {
               Why choose Trueway Driving School?
             </p>
           </div>
-          <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-2">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-2 dark:text-gray-700">
             Your Smart Choice for Success
           </h2>
           <p className="text-gray-800 text-base max-w-2xl mx-auto mb-12 md:mb-20">

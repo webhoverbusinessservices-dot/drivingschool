@@ -80,7 +80,7 @@ export default function HeroSection() {
 
   return (
     <>
-      <div className="relative w-full bg-[url('/hero/banner-2.jpg')] bg-cover bg-center bg-no-repeat pb-16 sm:pb-24 lg:pb-32">
+      <div className="relative w-full bg-[url('/hero/banner-2.jpg')] bg-cover bg-center bg-no-repeat pb-16 sm:pb-24 lg:pb-32 dark:bg-white">
         <div className="relative max-w-8xl mx-auto px-4 md:px-8 pt-6 sm:pt-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center min-h-[42vh] lg:min-h-[50vh]">
 
@@ -124,7 +124,7 @@ export default function HeroSection() {
       </div>
 
       {/* Search Card */}
-      <div className="relative -mt-30 md:-mt-30 px-4 md:px-50 z-30">
+      <div className="relative -mt-30 md:-mt-30 px-4 md:px-50 z-30 ">
         <div className="container mx-auto">
           <div className="bg-gradient-to-br from-gray-50 via-gray-100 to-gray-50 rounded-3xl p-6 md:p-6 bg-gray-300">
 

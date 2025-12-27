@@ -72,7 +72,7 @@ export default function FaqSection() {
         <div className="text-center mb-16 fadeInUp-animation">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-100 rounded-full mb-4">
             <Car className="text-yellow-700" size={20} />
-            <p className="text-yellow-800 uppercase tracking-wider text-xs font-bold">
+            <p className="text-yellow-800 uppercase tracking-wider text-xs font-bold dark:text-gray-700">
               Frequently Asked Questions
             </p>
           </div>

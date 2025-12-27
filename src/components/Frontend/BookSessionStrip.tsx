@@ -8,7 +8,7 @@ export default function BookSessionStrip() {
 
   return (
     <>
-      <section className="pb-15  dark:bg-[#161f2f]">
+      <section className="p-10  bg-white">
         <div className="max-w-7xl mx-auto xxl:px-0 px-6">
           <div className=" bg-yellow-300 rounded-2xl p-8 md:p-12 relative overflow-hidden">
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">

@@ -50,8 +50,8 @@ text: "The lessons were clear, calm, and helped me build real confidence driving
 
 
   return (
-    <section>
-      <div className="max-w-7xl mx-auto py-15 px-4">
+    <section className="dark:bg-white">
+      <div className="max-w-7xl mx-auto py-15 px-4 ">
         <div className="w-full lg:w-7/12 mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-100 rounded-full mb-4">
             <p className="text-yellow-800 uppercase tracking-wider text-xs font-bold">
@@ -59,7 +59,7 @@ text: "The lessons were clear, calm, and helped me build real confidence driving
             </p>
           </div>
 
-          <h2 className="text-2xl md:text-4xl font-bold mb-12 md:mb-15">
+          <h2 className="text-2xl md:text-4xl font-bold mb-12 md:mb-15 dark:text-gray-700">
             Choose a driving instructor you can trust
           </h2>
         </div>

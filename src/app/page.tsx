@@ -15,43 +15,35 @@ import BookSessionStrip from "@/components/Frontend/BookSessionStrip";
 
 export default function HomePage() {
   return (
-<>
-  {/* ====== HEADER SECTION ====== */}
-  <Header />
+    <>
+      <Header />
+      <main className="dark:bg-white">
+        <HeroSection />
 
-  {/* ====== HERO / BANNER SECTION ====== */}
-  <HeroSection />
+        <Features />
 
-  {/* ====== FEATURES SECTION ====== */}
-  <Features />
+        <section className="bg-yellow-100">
+          <HowItWorks />
+        </section>
 
-  {/* ====== HOW IT WORKS SECTION ====== */}
-  <section className="bg-yellow-100">
-  <HowItWorks />
-  </section>
 
-  {/* ====== WHY CHOOSE US SECTION ====== */}
-  <WhyChooseUs />
+        <WhyChooseUs />
 
-  {/* ====== MOVING CAR ANIMATION SECTION ====== */}
-  <MovingCarSection />
+        <MovingCarSection />
 
-    {/* ====== TESTIMONIALS / REVIEWS SECTION ====== */}
-  <DrivingConfidenceSplit />
+        <DrivingConfidenceSplit />
 
-    {/* ====== FAQ + BLOG SECTION ====== */}
-  <Faqs />
+        <Faqs />
 
-  <RefresherDrivingLesson/>
+        <RefresherDrivingLesson />
 
-  {/* ====== TESTIMONIALS / REVIEWS SECTION ====== */}
-  <Testimonials />
+        <Testimonials />
 
-  <BookSessionStrip/>
+        <BookSessionStrip />
 
-  {/* ====== FOOTER SECTION ====== */}
-  <Footer />
-</>
+      </main>
+      <Footer />
+    </>
 
   );
 }

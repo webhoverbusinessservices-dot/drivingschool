@@ -12,7 +12,7 @@ export default function Pricing() {
             <Header />
 
             {/* ====== SECTION ====== */}
-            <div className="">
+            <div className="dark:bg-white">
                 <PricingPackaging />
             </div>
 

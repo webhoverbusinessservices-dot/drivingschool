@@ -32,7 +32,7 @@ export default function DrivingConfidenceSplit() {
 
 
     return (
-        <section className="max-w-7xl mx-auto xxl:px-0 pb-10">
+        <section className="max-w-7xl mx-auto xxl:px-0 pb-10 ">
             {/* Header */}
             <div
                 className="w-full lg:w-8/12 mx-auto text-center mt-16 transition-all duration-1000 px-4"
@@ -42,7 +42,7 @@ export default function DrivingConfidenceSplit() {
                         Why choose Trueway Driving School?
                     </p>
                 </div> */}
-                <h2 className="font-display font-bold text-3xl lg:text-4xl text-text-light dark:text-text-dark mb-4">
+                <h2 className="font-display font-bold text-3xl lg:text-4xl text-text-light dark:text-text-dark mb-4 dark:text-gray-700">
                     Feel Confident Booking Lessons
                 </h2>
                 <p className="text-gray-800 text-base max-w-2xl mx-auto">
