@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '@/components/Header/Header';
 import Breadcrumb, { BreadcrumbItem } from "@/components/Frontend/Breadcrumb";
 import Footer from '@/components/Footer/Footer';
-import { Home} from "lucide-react";
+import { Home } from "lucide-react";
 import LessonTestPackageForm from '@/components/Frontend/LessonTestPackageForm';
 import Testimonials from '@/components/Home/Testimonials';
 import LocationBasedInstructors from '@/components/Frontend/LocationBasedInstructors';
@@ -59,36 +59,39 @@ export default function Location() {
 
 
       {/* ====== Hero  SECTION ====== */}
-      <div className="max-w-7xl mx-auto my-6 sm:my-10 px-4">
-        <div
-          className="relative w-full
+      <section className='dark:bg-white'>
+        <div className="max-w-7xl mx-auto py-6 sm:py-10 px-4 dark:bg-white">
+          <div
+            className="relative w-full
                      h-[220px]
                      sm:h-[240px]
                      lg:h-[250px]
                      rounded-3xl overflow-hidden bg-cover bg-center
                      flex items-center justify-center"
-          style={{ backgroundImage: "url('/hero/bg-3.jpg')" }}
-          role="img"
-          aria-label="Hero background"
-        >
+            style={{ backgroundImage: "url('/hero/bg-3.jpg')" }}
+            role="img"
+            aria-label="Hero background"
+          >
 
-          {/* Centered Content */}
-          <section className="relative z-10 w-full">
-            <div className="max-w-3xl mx-auto bg-black/80 rounded-2xl p-4 sm:p-5">
+            {/* Centered Content */}
+            <section className="relative z-10 w-full">
+              <div className="max-w-3xl mx-auto bg-black/80 rounded-2xl p-4 sm:p-5">
 
-              <h2 className="text-center text-lg sm:text-2xl md:text-3xl font-bold text-white mb-2">
-                International Driver’s Licence Conversions
-              </h2>
+                <h2 className="text-center text-lg sm:text-2xl md:text-3xl font-bold text-white mb-2">
+                  International Driver’s Licence Conversions
+                </h2>
 
-              <p className="hidden sm:block text-center text-sm md:text-base text-white/90 mb-4">
-                Prepare to pass your driving test at the first attempt
-              </p>
+                <p className="hidden sm:block text-center text-sm md:text-base text-white/90 mb-4">
+                  Prepare to pass your driving test at the first attempt
+                </p>
 
-              <LessonTestPackageForm />
-            </div>
-          </section>
+                <LessonTestPackageForm />
+              </div>
+            </section>
+          </div>
         </div>
-      </div>
+      </section>
+
 
       <section className="w-full py-12 bg-white border-t border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4">

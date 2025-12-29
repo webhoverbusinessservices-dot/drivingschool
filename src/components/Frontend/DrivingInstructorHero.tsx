@@ -38,7 +38,7 @@ export default function DrivingInstructorHero() {
                         </div>
 
                         {/* Heading */}
-                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold leading-tight">
+                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold leading-tight dark:text-gray-800">
                             Find the perfect{" "}
                             <span className="text-yellow-500">driving instructor</span>{" "}
                             near you.

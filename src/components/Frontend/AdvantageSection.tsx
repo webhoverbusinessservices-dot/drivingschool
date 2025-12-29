@@ -24,13 +24,13 @@ export default function AdvantageSection() {
 
                         {/* Card 1 */}
                         <div className="feature-card bg-card-light dark:bg-card-dark p-8 rounded-2xl shadow-soft dark:shadow-none dark:border dark:border-slate-700 hover:shadow-xl dark:hover:shadow-glow group border border-gray-300">
-                            <div className="w-14 h-14 bg-blue-100 dark:bg-slate-700/50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <div className="w-14 h-14 bg-blue-100 dark:bg-slate-200/50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                 <span className="text-blue-600 dark:text-blue-400">
                                     <Clock size={25} />
                                 </span>
                             </div>
 
-                            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
+                            <h3 className="text-xl font-bold text-slate-900 dark:text-black mb-3">
                                 Book in under 60 seconds
                             </h3>
 
@@ -41,13 +41,13 @@ export default function AdvantageSection() {
 
                         {/* Card 2 */}
                         <div className="feature-card bg-card-light dark:bg-card-dark p-8 rounded-2xl shadow-soft dark:shadow-none dark:border dark:border-slate-700 hover:shadow-xl dark:hover:shadow-glow group border border-gray-300">
-                            <div className="w-14 h-14 bg-amber-100 dark:bg-slate-700/50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
+                            <div className="w-14 h-14 bg-amber-100 dark:bg-slate-200/50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
                                 <span className="text-amber-600 dark:text-primary">
                                     <LayoutDashboard size={25} />
                                 </span>
                             </div>
 
-                            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3 relative z-10">
+                            <h3 className="text-xl font-bold text-slate-900 dark:text-black mb-3 relative z-10">
                                 Your online dashboard
                             </h3>
 
@@ -58,13 +58,13 @@ export default function AdvantageSection() {
 
                         {/* Card 3 */}
                         <div className="feature-card bg-card-light dark:bg-card-dark p-8 rounded-2xl shadow-soft dark:shadow-none dark:border dark:border-slate-700 hover:shadow-xl dark:hover:shadow-glow group border border-gray-300">
-                            <div className="w-14 h-14 bg-purple-100 dark:bg-slate-700/50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <div className="w-14 h-14 bg-purple-100 dark:bg-slate-200/50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                 <span className="text-purple-600 dark:text-purple-400">
                                     <SlidersHorizontal size={25} />
                                 </span>
                             </div>
 
-                            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
+                            <h3 className="text-xl font-bold text-slate-900 dark:text-black mb-3">
                                 Total control over bookings
                             </h3>
 
@@ -75,7 +75,6 @@ export default function AdvantageSection() {
 
                         {/* Highlight card */}
                         <div className="feature-card lg:col-span-2 bg-gradient-to-br from-slate-900 to-slate-800 dark:from-slate-800 dark:to-slate-900 p-8 rounded-2xl shadow-lg relative overflow-hidden group border border-gray-300">
-                            <div className="absolute -right-10 -bottom-10 w-64 h-64 bg-primary/20 rounded-full blur-3xl group-hover:bg-primary/30 transition-colors"></div>
 
                             <div className="flex flex-col md:flex-row items-start md:items-center gap-6 relative z-10">
                                 <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center shrink-0">
@@ -89,22 +88,23 @@ export default function AdvantageSection() {
                                         A wide range of trusted instructors
                                     </h3>
 
-                                    <p className="text-slate-300 leading-relaxed max-w-lg">
-                                        Choose from a large network of verified instructors. Filter by vehicle type, price, language and ratings so you find the perfect match — and book with confidence.
+                                    <p className="text-slate-300 leading-relaxed w-full max-w-none ">
+                                        Choose from a large network of verified instructors. Filter by vehicle type, price, language and ratings so you find the perfect match — and book with confidence. Get lesson reminders, flexible scheduling, and transparent pricing, plus friendly support every step of the way — making your learning journey simple, safe, and stress-free today.
                                     </p>
+
                                 </div>
                             </div>
                         </div>
 
                         {/* Local area */}
                         <div className="feature-card bg-card-light dark:bg-card-dark p-8 rounded-2xl shadow-soft dark:shadow-none dark:border dark:border-slate-700 hover:shadow-xl dark:hover:shadow-glow group border border-gray-300">
-                            <div className="w-14 h-14 bg-emerald-100 dark:bg-slate-700/50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <div className="w-14 h-14 bg-emerald-100 dark:bg-slate-200/50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                 <span className="text-emerald-600 dark:text-emerald-400">
                                     <MapPin size={25} />
                                 </span>
                             </div>
 
-                            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
+                            <h3 className="text-xl font-bold text-slate-900 dark:text-black mb-3">
                                 Servicing your local area
                             </h3>
 

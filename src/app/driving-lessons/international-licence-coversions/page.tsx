@@ -34,9 +34,10 @@ export default function page() {
 
       {/* ====== Hero  SECTION ====== */}
 
-      <div className="max-w-7xl mx-auto my-6 sm:my-10 px-3 sm:px-4">
-        <div
-          className="
+      <section className='dark:bg-white'>
+        <div className="max-w-7xl mx-auto py-6 sm:py-10 px-4 dark:bg-white">
+          <div
+            className="
       relative w-full
       min-h-[220px]
       sm:min-h-[240px]
@@ -45,15 +46,15 @@ export default function page() {
       bg-cover bg-center
       flex items-center justify-center
     "
-          style={{ backgroundImage: "url('/hero/bg-3.jpg')" }}
-          role="img"
-          aria-label="Hero background"
-        >
+            style={{ backgroundImage: "url('/hero/bg-3.jpg')" }}
+            role="img"
+            aria-label="Hero background"
+          >
 
-          {/* Centered Content */}
-          <section className="relative z-10 w-full">
-            <div
-              className="
+            {/* Centered Content */}
+            <section className="relative z-10 w-full">
+              <div
+                className="
           max-w-[95%] sm:max-w-3xl 
           mx-auto 
           bg-black/80 
@@ -61,10 +62,10 @@ export default function page() {
           p-4 sm:p-5 md:p-6 
           backdrop-blur
         "
-            >
+              >
 
-              <h2
-                className="
+                <h2
+                  className="
             text-center 
             text-sm sm:text-2xl md:text-3xl 
             font-bold 
@@ -72,28 +73,28 @@ export default function page() {
             leading-snug
             mb-1 sm:mb-2
           "
-              >
-                International Driver’s Licence Conversions
-              </h2>
+                >
+                  International Driver’s Licence Conversions
+                </h2>
 
-              <p
-                className="
+                <p
+                  className="
             text-center 
             text-[12px] sm:text-sm md:text-base 
             text-white/90 
             mb-3 md:mb-4
           "
-              >
-                Prepare to pass your driving test at the first attempt
-              </p>
+                >
+                  Prepare to pass your driving test at the first attempt
+                </p>
 
-              <LessonTestPackageForm />
-            </div>
-          </section>
+                <LessonTestPackageForm />
+              </div>
+            </section>
 
+          </div>
         </div>
-      </div>
-
+      </section>
       {/* ====== SECTION ====== */}
       <DrivingInstructorHero />
 

@@ -15,13 +15,9 @@ export default function PricingPackage() {
 
     return (
         <>
-            <div className="relative w-full py-16 md:py-20 overflow-hidden">
+            <div className="relative w-full py-16 md:py-20 overflow-hidden dark:bg-white">
                 <div
-                    className="
-      absolute inset-0
-      bg-gradient-to-br from-yellow-300 via-yellow-500 to-amber-500
-      [clip-path:polygon(0_8%,100%_0,100%_90%,0_100%)]
-    "
+                    className="absolute inset-0 bg-gradient-to-br from-yellow-300 via-yellow-500 to-amber-500 [clip-path:polygon(0_8%,100%_0,100%_90%,0_100%)]"
                 />
 
                 <div className="relative z-10">

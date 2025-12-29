@@ -79,73 +79,78 @@ export default function Page() {
             />
 
             {/* ====== SECTION ====== */}
-            <div className="bg-gradient-to-br from-slate-100 via-slate-50 to-blue-50 py-15 px-4">
-                <div className="max-w-7xl mx-auto xxl:px-0 px-6">
-                    {/* Main Content Grid */}
-                    <div className="grid lg:grid-cols-2 gap-12 items-center">
-                        {/* Left Side - Content */}
-                        <div>
-                            <div className="inline-flex items-center gap-2 mb-6">
-                                <div className="w-3 h-3 bg-yellow-500 rounded-full" />
-                                <span className="text-yellow-600 font-bold text-sm uppercase tracking-wide">OUR APPROACH</span>
+            <section className="dark:bg-white">
+                <div className="bg-gradient-to-br from-slate-100 via-slate-50 to-blue-50 py-15 px-4 dark:bg-white" >
+                    <div className="max-w-7xl mx-auto xxl:px-0 px-6 dark:bg-white">
+                        {/* Main Content Grid */}
+                        <div className="grid lg:grid-cols-2 gap-12 items-center">
+                            {/* Left Side - Content */}
+                            <div>
+                                <div className="inline-flex items-center gap-2 mb-6">
+                                    <div className="w-3 h-3 bg-yellow-500 rounded-full" />
+                                    <span className="text-yellow-600 font-bold text-sm uppercase tracking-wide">OUR APPROACH</span>
+                                </div>
+
+                                <h2 className="text-3xl md:text-5xl font-black text-gray-900 mb-3 leading-tight">
+                                    Don’t Leave Your Test to Chance!
+                                </h2>
+
+                                <h2 className="text-2xl md:text-2xl font-black text-gray-900 mb-6 leading-tight">The Total Driving Test Preparation Package</h2>
+                                <p className="text-base text-gray-700 leading-relaxed">
+                                    Our Driving Test Package equips you with everything needed for a calm and confident test experience, giving you the best chance of success.
+                                    Please note that this package includes your instructor and vehicle only—you must book the driving test separately with your local roads authority.
+                                    Availability excludes ACT, SA, and TAS.
+                                </p>
                             </div>
 
-                            <h2 className="text-3xl md:text-5xl font-black text-gray-900 mb-3 leading-tight">
-                                Don’t Leave Your Test to Chance!
-                            </h2>
-
-                            <h2 className="text-2xl md:text-2xl font-black text-gray-900 mb-6 leading-tight">The Total Driving Test Preparation Package</h2>
-                            <p className="text-base text-gray-700 leading-relaxed">
-                                Our Driving Test Package equips you with everything needed for a calm and confident test experience, giving you the best chance of success.
-                                Please note that this package includes your instructor and vehicle only—you must book the driving test separately with your local roads authority.
-                                Availability excludes ACT, SA, and TAS.
-                            </p>
-                        </div>
-
-                        {/* Right Side - Feature Cards */}
-                        <div className="grid grid-cols-1 sm:grid-cols-1 gap-6">
-                            <div className="">
-                                <div className="space-y-6">
-                                    {features.map((feature, index) => {
-                                        const Icon = feature.icon;
-                                        return (
-                                            <div
-                                                key={index}
-                                                className="flex items-start gap-5 group hover:translate-x-2 transition-transform duration-300"
-                                            >
-                                                <div className="flex-shrink-0 mt-1">
-                                                    <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-yellow-300 to-yellow-600 flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
-                                                        <Icon className="w-7 h-7 text-white" />
+                            {/* Right Side - Feature Cards */}
+                            <div className="grid grid-cols-1 sm:grid-cols-1 gap-6">
+                                <div className="">
+                                    <div className="space-y-6">
+                                        {features.map((feature, index) => {
+                                            const Icon = feature.icon;
+                                            return (
+                                                <div
+                                                    key={index}
+                                                    className="flex items-start gap-5 group hover:translate-x-2 transition-transform duration-300"
+                                                >
+                                                    <div className="flex-shrink-0 mt-1">
+                                                        <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-yellow-300 to-yellow-600 flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
+                                                            <Icon className="w-7 h-7 text-white" />
+                                                        </div>
+                                                    </div>
+                                                    <div className="flex-1">
+                                                        <h3 className="text-xl font-bold text-gray-900 mb-1">{feature.title}</h3>
+                                                        <p className="text-gray-600 leading-relaxed">{feature.description}</p>
                                                     </div>
                                                 </div>
-                                                <div className="flex-1">
-                                                    <h3 className="text-xl font-bold text-gray-900 mb-1">{feature.title}</h3>
-                                                    <p className="text-gray-600 leading-relaxed">{feature.description}</p>
-                                                </div>
-                                            </div>
-                                        );
-                                    })}
+                                            );
+                                        })}
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
 
             {/* ====== SECTION ====== */}
+            <section className="dark:bg-white">
+                <div className="w-full lg:w-7/12 mx-auto text-center pt-15 dark:bg-white">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-100 rounded-full mb-4">
+                        <h2 className="text-yellow-800 uppercase tracking-wider text-xs font-bold">
+                            Trusted by over 100,000 learners
+                        </h2>
+                    </div>
 
-            <div className="w-full lg:w-7/12 mx-auto text-center mt-15">
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-100 rounded-full mb-4">
-                    <h2 className="text-yellow-800 uppercase tracking-wider text-xs font-bold">
-                        Trusted by over 100,000 learners
-                    </h2>
+                    <p className="text-2xl md:text-4xl font-bold  md:mt-0 dark:text-gray-600">
+                        Choose the package that’s right for you:
+                    </p>
                 </div>
+            </section>
 
-                <p className="text-2xl md:text-4xl font-bold  md:mt-0">
-                    Choose the package that’s right for you:
-                </p>
-            </div>
-            <section className="py-16 px-6">
+            <section className="py-16 px-6 dark:bg-white">
                 {/* PACKAGE CARDS */}
                 <PackageSelector
                     selected={selectedPackage}
@@ -154,7 +159,7 @@ export default function Page() {
 
                 {/* FORMS */}
                 {selectedPackage === "lesson-test" ? (
-                    <div className="max-w-7xl mx-auto mt-10 shadow-[0_4px_20px_rgba(0,0,0,0.1)] rounded-2xl py-10 xxl:px-0 px-6">
+                    <div className="max-w-7xl mx-auto mt-10 shadow-[0_4px_20px_rgba(0,0,0,0.1)] rounded-2xl py-10 xxl:px-0 px-6 dark:bg-white">
                         {/* Instruction */}
                         <p className="text-center text-sm text-gray-700 mb-6">
                             Please select your pickup suburb & transmission type. You can then review
