@@ -10,6 +10,8 @@ import WhyChooseUs from "@/components/Home/WhyChooseUS";
 import Faqs from "@/components/Home/Faqs";
 import RefresherDrivingLesson from "@/components/Frontend/RefresherDrivingLesson";
 import BookSessionStrip from "@/components/Frontend/BookSessionStrip";
+import AboutUsSection from "@/components/Home/AboutUsSection";
+import BookingLessionForm from "@/components/Home/BookingLessionForm";
 
 
 
@@ -22,6 +24,8 @@ export default function HomePage() {
 
         <Features />
 
+        <AboutUsSection/>
+
         <section className="bg-yellow-100">
           <HowItWorks />
         </section>
@@ -32,15 +36,10 @@ export default function HomePage() {
         <MovingCarSection />
 
         <DrivingConfidenceSplit />
+        <BookSessionStrip />
+        <BookingLessionForm />
 
         <Faqs />
-
-        <RefresherDrivingLesson />
-
-        <Testimonials />
-
-        <BookSessionStrip />
-
       </main>
       <Footer />
     </>

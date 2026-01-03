@@ -46,7 +46,7 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="faq-section-hero relative py-20 overflow-hidden bg-gradient-to-br from-amber-50 via-white to-orange-50">
+    <section className="faq-section-hero relative py-20 overflow-hidden bg-gray-50">
       {/* Animated road lines */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gray-300 to-transparent opacity-20"></div>

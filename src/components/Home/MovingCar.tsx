@@ -13,15 +13,20 @@ export default function MovingCarSection() {
 
     return (
         <section className="relative w-full h-[380px] md:h-[460px] overflow-hidden bg-white flex items-center dark:bg-white">
+
             {/* Background */}
             <div
-                className="
-                          absolute inset-0
-                          bg-[url('/resource/city.jpg')]
-                          bg-repeat-x
-                          bg-[length:auto_100%]
-                          "animate-bg-left
+               className="
+               absolute inset-0
+               bg-[url('/resource/city.jpg')]
+               bg-repeat-x
+               bg-[length:auto_100%]
+               animate-bg-left
+             "
             />
+
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/30" />
 
             {/* CONTENT */}
             <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-10 w-full">

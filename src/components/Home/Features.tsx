@@ -17,7 +17,7 @@ export default function Features() {
         {
             icon: "/resource/f3.png",
             title: "Flexible Lesson Times",
-            desc: "Early mornings, evenings and weekends — driving lessons that fit your schedule.",
+            desc: "Mornings, evenings and weekends driving lessons that fit your schedule.",
         },
         {
             icon: "/resource/f4.png",
@@ -33,7 +33,7 @@ export default function Features() {
 
 
     return (
-        <section className="relative w-full pt-10 md:pt-10 pb-15 md:pb-15  overflow-hidden dark:bg-white">
+        <section className="relative w-full pt-10 md:pt-10 pb-15 md:pb-15  overflow-hidden dark:bg-white bg-gray-50">
             {/* Decorative Background Elements */}
             {/* <div className="absolute top-20 left-10 w-72 h-72 bg-yellow-200/20 rounded-full blur-3xl"></div>
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-yellow-300/20 rounded-full blur-3xl"></div> */}
@@ -41,30 +41,30 @@ export default function Features() {
             <div className="relative max-w-7xl mx-auto px-4 text-center">
                 {/* Header Section */}
                 <div className="w-full lg:w-8/12 mx-auto text-center mb-10">
-                    <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-yellow-100 to-orange-100 rounded-full mb-6 shadow-lg border border-yellow-200">
+                    <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-yellow-100 to-orange-100 rounded-full mb-3 shadow-lg border border-yellow-200">
                         <Sparkles size={16} className="text-yellow-600" />
                         <p className="text-yellow-800 uppercase tracking-wider text-xs font-bold">
                             Our Features
                         </p>
                     </div>
-                    <h2 className="text-2xl md:text-4xl font-bold mb-12 md:mb-15 dark:text-gray-700">
+                    <h2 className="text-2xl md:text-4xl font-bold mb-12 md:mb-10 dark:text-gray-700">
                         Confidence Starts with Safe Driving
                     </h2>
 
                 </div>
 
                 {/* Features Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-6">
                     {features.map((feature, index) => (
                         <div
                             key={index}
                             className="group relative"
                         >
                             {/* Glow effect on hover */}
-                            <div className="absolute -inset-1 bg-gradient-to-r from-yellow-300 to-orange-400 rounded-3xl blur opacity-0 group-hover:opacity-30 transition duration-500"></div>
+                            <div className="absolute -inset-1  rounded-xl blur opacity-0 "></div>
 
                             {/* Card */}
-                            <div className="relative flex flex-col items-center text-center p-6 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-3xl border-2 border-yellow-200 group-hover:border-yellow-300 transition-all duration-300  h-full">
+                            <div className="relative flex flex-col items-center text-center p-6 rounded-xl border-2 border-yellow-300   h-full">
                                 {/* Icon Container */}
                                 <div className="relative mb-6">
                                     <div className="absolute inset-0 opacity-50 group-hover:opacity-75 transition-opacity"></div>
@@ -77,8 +77,6 @@ export default function Features() {
                                         />
                                     </div>
                                 </div>
-
-
 
                                 {/* Title */}
                                 <h4 className="font-bold text-lg md:text-xl mb-3 text-gray-900 group-hover:text-yellow-800 transition-colors">

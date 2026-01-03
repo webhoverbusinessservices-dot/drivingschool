@@ -27,17 +27,17 @@ const faqs = [
       "Yes — pick-up and drop-off are included within the local area. We can collect you from home, school, work or another agreed location, as long as it is arranged before your lesson. If your pickup location is outside the normal service area, we’ll let you know in advance if a small travel fee applies."
   },
 
-  {
-    question: "How do payments and refunds work?",
-    answer:
-      "You can pay securely when booking your lesson or package. Packages offer the best value and can be used across multiple sessions. If you need to reschedule, simply do so within the required notice period to avoid fees. Cancellations made late or on the same day may incur a charge, because time has been reserved especially for you. Where eligible, refunds are processed quickly and transparently — no hidden costs."
-  },
+  // {
+  //   question: "How do payments and refunds work?",
+  //   answer:
+  //     "You can pay securely when booking your lesson or package. Packages offer the best value and can be used across multiple sessions. If you need to reschedule, simply do so within the required notice period to avoid fees. Cancellations made late or on the same day may incur a charge, because time has been reserved especially for you. Where eligible, refunds are processed quickly and transparently — no hidden costs."
+  // },
 
-  {
-    question: "Will you help me prepare for the driving test and what happens on test day?",
-    answer:
-      "Yes — we provide targeted test-preparation lessons that cover common examiner expectations, road rules, decision-making, observation skills and Perth-specific test routes. On test day, our Driving Test Package includes a warm-up lesson, car hire and support getting to the test centre. We also review your performance afterwards to help you continue improving, even after you pass."
-  }
+  // {
+  //   question: "Will you help me prepare for the driving test and what happens on test day?",
+  //   answer:
+  //     "Yes — we provide targeted test-preparation lessons that cover common examiner expectations, road rules, decision-making, observation skills and Perth-specific test routes. On test day, our Driving Test Package includes a warm-up lesson, car hire and support getting to the test centre. We also review your performance afterwards to help you continue improving, even after you pass."
+  // }
 ];
 
 
@@ -51,7 +51,7 @@ export default function Faqs() {
 
   return (
     <>
-      <section className="faq-section-hero relative py-20 overflow-hidden bg-gradient-to-br from-amber-50 via-white to-orange-50">
+      <section className="faq-section-hero relative py-20 overflow-hidden bg-gray-50">
         {/* Animated road lines */}
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -76,14 +76,14 @@ export default function Faqs() {
           {/* Grid */}
           <div className="grid gap-10 lg:grid-cols-12 items-start">
             {/* FAQ Column */}
-            <div className="space-y-4 lg:col-span-10 lg:col-start-2 mx-auto w-full">
+            <div className="space-y-4 lg:col-span-12 lg:col-start-0 mx-auto w-full">
               {faqs.map((item, index) => (
                 <div
                   key={index}
-                  className="group bg-white border-y border-gray-200 overflow-hidden hover:border-yellow-300 transition-all duration-300 hover:shadow-xl"
+                  className="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-yellow-300 transition-all duration-300 hover:shadow-xl"
                 >
                   <button
-                    className="w-full flex justify-between items-center p-3 text-left"
+                    className="w-full flex justify-between items-center p-5 text-left"
                     onClick={() => toggleFaq(index)}
                   >
                     <span className="font-semibold text-gray-900 text-sm md:text-base pr-4 group-hover:text-yellow-400 transition-colors">
@@ -106,8 +106,8 @@ export default function Faqs() {
                     className={`overflow-hidden transition-all duration-300 ${openFaq === index ? "max-h-40" : "max-h-0"
                       }`}
                   >
-                    <div className="px-3 pb-4 text-gray-600 ">
-                      <p className="leading-relaxed text-sm">{item.answer}</p>
+                    <div className="px-5 pb-4 text-gray-800 ">
+                      <p className="leading-relaxed text-base">{item.answer}</p>
                     </div>
                   </div>
                 </div>

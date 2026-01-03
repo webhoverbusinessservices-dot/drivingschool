@@ -8,6 +8,7 @@ import {
   Mail,
   Car,
   BookOpenCheck,
+  ArrowRight
 } from "lucide-react";
 import { useState } from "react";
 
@@ -23,48 +24,43 @@ export default function Header() {
       <div className="w-full bg-black text-xs">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-4 py-2 font-sans md:px-0">
 
-          {/* Left */}
           <div className="hidden flex-wrap items-center gap-4 sm:flex">
             <div className="flex items-center gap-2">
               <span className="text-sm text-yellow-300">
                 <Phone size={16} />
               </span>
-              <span className="text-sm">+1 222-555-33-99</span>
+              <span className="text-sm">+0485500081</span>
             </div>
 
             <div className="flex items-center gap-2">
               <span className="text-yellow-300">
                 <Mail size={16} />
               </span>
-              <span className="text-sm">truewaydrivingschool.com</span>
+              <span className="text-sm">support@truewaydrivingschool.com</span>
             </div>
           </div>
 
-          {/* Center */}
           <div className="hidden items-center gap-2 sm:flex">
             <span className="text-yellow-300">
               <Car size={24} />
             </span>
             <span className="text-sm">
-              More than{" "}
-              <span className="font-semibold text-yellow-300">800+</span> special
-              collection cars in this summer
+              From first lesson to licence — we guide you every step of the way
             </span>
           </div>
 
-          {/* Right */}
           <div className="flex w-full items-center justify-between gap-3 sm:w-auto sm:justify-end">
             <button className="flex items-center gap-2 hover:text-yellow-300">
               <span className="text-yellow-300">
                 <BookOpenCheck size={18} />
               </span>
               <span className="text-sm">
-                Instruct with Trueway Driving School
+                login
               </span>
             </button>
 
             <button className="rounded-full bg-white px-4 py-1 text-xs font-semibold text-slate-900 hover:bg-slate-200 transition">
-              Support
+              Sign Up
             </button>
           </div>
 
@@ -76,10 +72,10 @@ export default function Header() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-0 md:px-0">
 
           {/* Logo */}
-          <div className="relative w-[150px] h-25">
+          <div className="relative w-[180px] h-20">
             <Link href="/">
               <Image
-                src="/new-logo.jpg"
+                src="/hero/new-logo.png"
                 alt="logo"
                 fill
                 className="object-contain cursor-pointer"
@@ -89,7 +85,23 @@ export default function Header() {
 
           {/* Desktop Nav (now lg and up) */}
           <nav className="hidden lg:flex items-center gap-10 justify-start">
-            <ul className="flex items-center gap-7 text-sm font-sans">
+            <ul className="flex items-center gap-4 text-sm font-sans">
+              <li>
+                <Link
+                  href="/"
+                  className="block rounded px-3 text-black py-2 text-base hover:text-yellow-300 font-semibold"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/"
+                  className="block rounded px-3 text-black py-2 text-base hover:text-yellow-300 font-semibold"
+                >
+                  About Us
+                </Link>
+              </li>
               <li className="group relative">
                 <button className="flex items-center gap-1 hover:text-yellow-850 text-gray-900 text-sm font-semibold">
                   <span className="font-alt text-base">Driving Lessons</span>
@@ -119,23 +131,41 @@ export default function Header() {
                     Refresher Lessons
                   </Link>
 
+                  <Link href="/location" className="block rounded px-3 text-black py-2 text-base hover:text-yellow-300 font-semibold">
+                    Location
+                  </Link>
+
                 </div>
-
               </li>
 
               <li>
-                <Link href="/location" className="hover:text-yellow-300 font-alt text-gray-900 text-base font-semibold">
-                  Location
-                </Link>
-              </li>
-
-              <li>
-                <Link href="/pricing-packaging" className="hover:text-yellow-300 font-alt text-gray-900 text-base font-semibold">
+                <Link
+                 href="/pricing-packaging"
+                  className="block rounded px-3 text-black py-2 text-base hover:text-yellow-300 font-semibold"
+                >
                   Prices & Packages
                 </Link>
               </li>
 
-              <li className="group relative">
+              <li>
+                <Link
+                  href="/faqs"
+                  className="block rounded px-3 text-black py-2 text-base hover:text-yellow-300 font-semibold"
+                >
+                  FAQs
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/blogs"
+                  className="block rounded px-3 text-black py-2 text-base hover:text-yellow-300 font-semibold"
+                >
+                  Blogs
+                </Link>
+              </li>
+
+              {/* <li className="group relative">
                 <button className="flex items-center gap-1 hover:text-yellow-300 text-gray-900 text-base font-semibold">
                   <span className="font-alt">Free Learner Resources</span>
                   <ChevronDown size={16} />
@@ -155,9 +185,56 @@ export default function Header() {
                     Blogs
                   </Link>
                 </div>
-              </li>
+              </li> */}
             </ul>
 
+
+            <div className="flex items-center gap-3 bg-white px-4 py-2">
+              {/* Phone Icon Circle */}
+              <div className="
+     flex-shrink-0 w-12 h-12
+    text-yellow-300 rounded-full
+    flex items-center justify-center
+     bg-gray-900
+    smooth-scale
+  "
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+              </div>
+
+              {/* Text Content */}
+              <div className="flex flex-col">
+                <span className="text-sm text-gray-600">
+                  Learn To Drive? Call us
+                </span>
+                <a
+                  href="tel:+17003330088"
+                  className="text-md font-bold text-gray-900 hover:text-yellow-400 transition-colors"
+                >
+                  +0485500081
+                </a>
+              </div>
+            </div>
+
+            {/* <div className="flex justify-center mt-6 sm:mt-0">
+              <button className="flex items-center gap-2 bg-yellow-300 text-black px-8 py-3 rounded-full shadow  hover:text-white hover:bg-gray-900 transition whitespace-nowrap">
+                <span>Start learning to drive now</span>
+                <ArrowRight size={18} />
+              </button>
+            </div> */}
+            {/* 
             <div className="ml-6 flex items-center gap-3 text-base font-sans">
               <a href="/learner/login" className="rounded-md bg-yellow-300 px-4 py-2 cursor-pointer text-gray-900 font-semibold">
                 Learner Login
@@ -165,7 +242,7 @@ export default function Header() {
               <a href="/instructor/login" className="rounded-md border bg-gray-900 px-4 py-2 cursor-pointer text-white font-semibold">
                 Instructor Login
               </a>
-            </div>
+            </div> */}
           </nav>
 
           {/* Mobile menu toggle (0–1023px) */}

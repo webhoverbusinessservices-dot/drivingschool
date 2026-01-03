@@ -86,19 +86,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 p {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 span {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 a {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 
@@ -700,7 +700,7 @@ a {
 
 .card-hoverable {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -709,5 +709,54 @@ a {
   box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
 }
 
- /* .footer-gradient {
+
+
+/* .footer-gradient {
                 background: linear-gradient(180deg, rgba(15, 23, 42, 0) 0%, rgba(15, 23, 42, 1) 100%);} */
+@keyframes smoothScale {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.smooth-scale {
+  animation: smoothScale 2s ease-in-out infinite;
+}
+
+
+
+
+.custom-footer {
+    background: url("/resource/tt-foter-bg.jpg") top center repeat;
+    position: relative;
+    color: #b5b5b5;
+}
+
+.custom-footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 256px;
+  height: 266px;
+  background: url("/resource/tt-foter-bg1.png")
+    top right no-repeat;
+  z-index: 0; 
+}
+.custom-footer:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  z-index: 1;
+  height: 4px;
+  width: 100%;
+  background: #fdc400;
+}
